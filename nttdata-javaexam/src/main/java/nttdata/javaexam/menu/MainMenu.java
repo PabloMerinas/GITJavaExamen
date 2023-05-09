@@ -25,8 +25,12 @@ public class MainMenu {
 			System.out.println("12. Recuperar alumnos de un archivo");
 			System.out.println("Selecciona una opcion [ 0 - Salir ]: ");
 			opt = Integer.parseInt(scanner.nextLine());
-			if (opt == 0)
-				break;
+			switch (opt) {
+			case 0 -> opt = -1;
+
+			// TODO
+
+			}
 		} while (opt < 0 || opt > MAXOPT);
 
 	}
