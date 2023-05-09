@@ -17,7 +17,7 @@ public abstract class Student {
 		this.center = center;
 	}
 
-	public abstract void saluda(List<Student> names);
+	public abstract List<Student> saluda(List<Student> names);
 
 	public String getName() {
 		return name;
